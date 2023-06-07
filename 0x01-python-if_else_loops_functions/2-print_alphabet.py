@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    print(chr(i), end = "")
+lower_case = range(97, 123)
+for i in lower_case:
+    print("{:c}".format(i), end = "")
