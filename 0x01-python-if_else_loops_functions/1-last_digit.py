@@ -8,14 +8,14 @@ if last_digit > 5:
               f"{last_digit: d} and is greater than 5")
     else:
         print(f"Last digit of {number: d} is"
-              f"-{last_digit: d} and is greater than 5")
+              f"{last_digit: d} and is greater than 5")
 if last_digit == 0:
     if last_digit > 0:
         print(f"Last digit of {number: d} is"
               f"{last_digit: d} and is 0")
     else:
         print(f"Last digit of {number: d} is"
-              f"-{last_digit: d} and is 0")
+              f"{last_digit: d} and is 0")
 if last_digit < 6 and last_digit != 0:
     if last_digit > 0:
         print(f"Last digit of {number: d} is"
