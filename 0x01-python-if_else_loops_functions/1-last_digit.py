@@ -22,4 +22,4 @@ if last_digit < 6 and last_digit != 0:
               {last_digit: d} and is less than 6 and not 0")
     else:
         print(f"Last digit of {number: d} is
-              -{last_digit: d} and is less than 6 and not 0")
+             -{last_digit: d} and is less than 6 and not 0")
